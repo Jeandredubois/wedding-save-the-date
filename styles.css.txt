@@ -1,0 +1,99 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header h1 {
+    font-size: 3em;
+    color: #e91e63;
+}
+
+header h2 {
+    font-size: 2.5em;
+    margin-top: 10px;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Wedding Details */
+.details {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.details p {
+    margin: 5px 0;
+}
+
+/* RSVP Section */
+.rsvp {
+    margin-top: 40px;
+    font-size: 1.2em;
+}
+
+.rsvp h3 {
+    font-size: 2em;
+    color: #333;
+}
+
+.rsvp form {
+    margin-top: 20px;
+}
+
+.rsvp form input, 
+.rsvp form select, 
+.rsvp form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.rsvp form button {
+    background-color: #e91e63;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.rsvp form button:hover {
+    background-color: #d81b60;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    font-size: 1.1em;
+    color: #666;
+}
+
+footer p {
+    margin: 10px 0;
+}
